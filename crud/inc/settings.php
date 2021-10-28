@@ -8,10 +8,10 @@
 // $port = 5432;
 
 // Settings remotas heroku
-$servername = "ec2-34-193-46-89.compute-1.amazonaws.com";
-$username = "angnurxqbdhdim";
-$password = "f8c3ffd21a020858ecfd4efe26ea4a54cc9a108a0248a974374261224fac0010";
-$dbname = "d1bg0gpolqel2t";
+$servername = "ec2-35-170-123-64.compute-1.amazonaws.com";
+$username = "idtncsxzrudcim";
+$password = "228c5226acae95b18c57d6b190b4d19c7f81b1156fd1bfc9dd30899fe269e009";
+$dbname = "dc94kto2ud1ds";
 $port = 5432;
 
 function validar(){
@@ -20,7 +20,7 @@ if (empty($_SESSION["nombre"]))
 {
   echo "Se detecto un acceso ilegal al sistema, su ip esta siendo monitoreada y sera enviada a la policia";
   ?>
-  <a href="http://localhost/crud-postgres">Sitio de login</a>
+  <a href="https://actividad6-crud.herokuapp.com/crud/">Sitio de login</a>
   <?php
   exit();
 }
